@@ -1,3 +1,4 @@
+import { Header } from './components/Header'
 import { Hero } from './components/Hero'
 import { ProblemSection } from './components/ProblemSection'
 import { HowItWorks } from './components/HowItWorks'
@@ -9,6 +10,7 @@ import { Footer } from './components/Footer'
 function App() {
   return (
     <div className="min-h-screen bg-background">
+      <Header />
       <Hero />
       <ProblemSection />
       <HowItWorks />
